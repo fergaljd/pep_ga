@@ -1,0 +1,70 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_3 
+REMARK    2  A    between atoms: CA_8  and  CB_9 
+REMARK    3  A    between atoms: CB_9  and  CG_10 
+REMARK    4  A    between atoms: CG_10  and  CD_11 
+REMARK    5  A    between atoms: CD_11  and  NE_12 
+REMARK       I    between atoms: NE_12  and  CZ_13 
+REMARK    6  A    between atoms: CA_24  and  CB_25 
+REMARK    7  A    between atoms: CA_30  and  CB_31 
+REMARK    8  A    between atoms: CB_31  and  CG_32 
+ROOT
+ATOM      1  N   CYS A   1      -0.575   1.035   1.067  1.00  0.00    -0.240 NA
+ATOM      2  CA  CYS A   1      -0.463   1.409   2.483  1.00  0.00     0.197 C 
+ATOM      3  C   CYS A   1       0.943   1.818   2.812  1.00  0.00     0.275 C 
+ATOM      4  O   CYS A   1       1.105   2.796   3.651  1.00  0.00    -0.268 OA
+ATOM      5  N   ARG A   2       2.084   0.987   2.508  1.00  0.00    -0.230 NA
+ATOM      6  CA  ARG A   2       2.084  -0.111   1.532  1.00  0.00     0.172 C 
+ATOM      7  C   ARG A   2       2.930  -1.286   1.923  1.00  0.00     0.208 C 
+ATOM      8  O   ARG A   2       3.913  -1.133   2.762  1.00  0.00    -0.172 OA
+ATOM      9  N   ALA A   3       2.619  -2.611   1.452  1.00  0.00    -0.242 NA
+ATOM     10  CA  ALA A   3       1.598  -2.907   0.440  1.00  0.00     0.171 C 
+ATOM     11  CB  ALA A   3       2.143  -2.708  -0.965  1.00  0.00     0.035 C 
+ATOM     12  C   ALA A   3       1.024  -4.277   0.607  1.00  0.00     0.208 C 
+ATOM     13  O   ALA A   3       1.763  -5.321   0.365  1.00  0.00    -0.172 OA
+ATOM     14  N   SER A   4      -0.301  -4.470   1.139  1.00  0.00    -0.239 NA
+ATOM     15  CA  SER A   4      -1.157  -3.436   1.735  1.00  0.00     0.204 C 
+ATOM     16  C   SER A   4      -1.879  -2.584   0.729  1.00  0.00     0.211 C 
+ATOM     17  O   SER A   4      -3.167  -2.406   0.830  1.00  0.00    -0.172 OA
+ATOM     18  N   TYR A   5      -1.105  -1.704  -0.112  1.00  0.00    -0.241 NA
+ATOM     19  CA  TYR A   5      -1.562  -0.430  -0.687  1.00  0.00     0.175 C 
+ATOM     20  C   TYR A   5      -1.765   0.575   0.401  1.00  0.00     0.208 C 
+ATOM     21  O   TYR A   5      -2.910   0.628   1.021  1.00  0.00    -0.172 OA
+ENDROOT
+BRANCH  19  22
+ATOM     22  CB  TYR A   5      -2.733  -0.618  -1.652  1.00  0.00     0.059 C 
+BRANCH  22  23
+ATOM     23  CG  TYR A   5      -3.081   0.622  -2.407  1.00  0.00    -0.020 A 
+ATOM     24  CD1 TYR A   5      -4.349   1.194  -2.249  1.00  0.00    -0.002 A 
+ATOM     25  CE1 TYR A   5      -4.692   2.349  -2.959  1.00  0.00     0.027 A 
+ATOM     26  CZ  TYR A   5      -3.772   2.929  -3.835  1.00  0.00     0.131 A 
+ATOM     27  OH  TYR A   5      -4.115   4.126  -4.538  1.00  0.00    -0.190 OA
+ATOM     28  CE2 TYR A   5      -2.505   2.357  -4.000  1.00  0.00     0.027 A 
+ATOM     29  CD2 TYR A   5      -2.162   1.203  -3.289  1.00  0.00    -0.002 A 
+ENDBRANCH  22  23
+ENDBRANCH  19  22
+BRANCH  15  30
+ATOM     30  CB  SER A   4      -2.051  -4.062   2.800  1.00  0.00     0.215 C 
+ATOM     31  OG  SER A   4      -2.953  -5.025   2.225  1.00  0.00    -0.218 OA
+ENDBRANCH  15  30
+BRANCH   2  32
+ATOM     32  CB  CYS A   1      -0.868   0.231   3.357  1.00  0.00     0.103 C 
+ATOM     33  SG  CYS A   1      -1.487   0.802   4.984  1.00  0.00    -0.080 SA
+ENDBRANCH   2  32
+BRANCH   6  34
+ATOM     34  CB  ARG A   2       2.262   0.376   0.096  1.00  0.00     0.035 C 
+BRANCH  34  35
+ATOM     35  CG  ARG A   2       3.673   0.777  -0.304  1.00  0.00     0.029 C 
+BRANCH  35  36
+ATOM     36  CD  ARG A   2       4.136   2.064   0.360  1.00  0.00     0.129 C 
+BRANCH  36  37
+ATOM     37  NE  ARG A   2       3.564   3.226  -0.323  1.00  0.00    -0.240 NA
+ATOM     38  CZ  ARG A   2       4.382   4.209  -0.986  1.00  0.00     0.252 C 
+ATOM     39  NH1 ARG A   2       5.673   4.057  -1.067  1.00  0.00    -0.111 N 
+ATOM     40  NH2 ARG A   2       3.757   5.315  -1.651  1.00  0.00    -0.059 NA
+ENDBRANCH  36  37
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH   6  34
+TORSDOF 8

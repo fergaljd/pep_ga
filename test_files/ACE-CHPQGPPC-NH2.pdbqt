@@ -1,0 +1,99 @@
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C_1  and  N_4 
+REMARK    1  A    between atoms: N_4  and  CA_5 
+REMARK    2  A    between atoms: CA_12  and  CB_15 
+REMARK    3  A    between atoms: CB_15  and  CG_16 
+REMARK    4  A    between atoms: CA_31  and  CB_34 
+REMARK    5  A    between atoms: CB_34  and  CG_35 
+REMARK    6  A    between atoms: CG_35  and  CD_36 
+REMARK       I    between atoms: CD_36  and  NE2_38 
+REMARK    7  A    between atoms: CA_62  and  C_63 
+REMARK       I    between atoms: C_63  and  N_69 
+ROOT
+ATOM      1  CA  CYS P   1      19.016  -0.180  21.856  1.00 53.32     0.171 C 
+ATOM      2  C   CYS P   1      19.496   1.071  21.132  1.00 45.33     0.252 C 
+ATOM      3  O   CYS P   1      19.247   2.183  21.603  1.00 44.14    -0.271 OA
+ATOM      4  CB  CYS P   1      17.677   0.069  22.532  1.00 60.93     0.100 C 
+ATOM      5  SG  CYS P   1      17.153  -1.349  23.532  1.00 72.33    -0.080 SA
+ATOM      6  N   HIS P   2      20.202   0.912  20.002  1.00 32.90    -0.337 N 
+ATOM      7  CA  HIS P   2      20.761   2.048  19.280  1.00 23.00     0.166 C 
+ATOM      8  C   HIS P   2      19.706   3.108  18.969  1.00 16.79     0.254 C 
+ATOM      9  O   HIS P   2      18.617   2.748  18.505  1.00 16.40    -0.270 OA
+ATOM     10  H   HIS P   2      20.270   0.025  19.599  1.00 20.00     0.164 HD
+ATOM     11  N   PRO P   3      19.913   4.414  19.185  1.00 16.26    -0.312 N 
+ATOM     12  CA  PRO P   3      18.880   5.422  18.905  1.00 12.19     0.163 C 
+ATOM     13  C   PRO P   3      18.329   5.515  17.472  1.00 15.85     0.251 C 
+ATOM     14  O   PRO P   3      17.328   6.199  17.264  1.00 15.58    -0.271 OA
+ATOM     15  CB  PRO P   3      19.525   6.702  19.418  1.00 10.21     0.034 C 
+ATOM     16  CG  PRO P   3      20.988   6.416  19.386  1.00  8.83     0.027 C 
+ATOM     17  CD  PRO P   3      21.093   4.991  19.820  1.00 11.09     0.105 C 
+ATOM     18  N   GLN P   4      18.904   4.902  16.415  1.00 15.60    -0.338 N 
+ATOM     19  CA  GLN P   4      18.319   4.958  15.089  1.00 15.74     0.160 C 
+ATOM     20  C   GLN P   4      17.228   3.891  14.915  1.00 14.52     0.251 C 
+ATOM     21  O   GLN P   4      16.312   4.077  14.119  1.00 16.19    -0.271 OA
+ATOM     22  H   GLN P   4      19.708   4.364  16.548  1.00 30.00     0.164 HD
+ATOM     23  N   GLY P   5      17.244   2.806  15.677  1.00 17.41    -0.336 N 
+ATOM     24  CA  GLY P   5      16.272   1.743  15.510  1.00 24.79     0.189 C 
+ATOM     25  C   GLY P   5      14.917   2.032  16.139  1.00 32.58     0.257 C 
+ATOM     26  O   GLY P   5      14.645   3.167  16.557  1.00 34.07    -0.270 OA
+ATOM     27  H   GLY P   5      17.829   2.771  16.461  1.00 30.00     0.164 HD
+ATOM     28  N   PRO P   6      14.014   1.034  16.203  1.00 39.15    -0.312 N 
+ATOM     29  CA  PRO P   6      12.666   1.160  16.760  1.00 44.79     0.163 C 
+ATOM     30  C   PRO P   6      12.622   1.357  18.290  1.00 51.12     0.254 C 
+ATOM     31  O   PRO P   6      13.671   1.354  18.939  1.00 51.82    -0.270 OA
+ATOM     32  CB  PRO P   6      12.006  -0.116  16.253  1.00 43.23     0.034 C 
+ATOM     33  CG  PRO P   6      13.117  -1.137  16.350  1.00 40.85     0.027 C 
+ATOM     34  CD  PRO P   6      14.264  -0.341  15.759  1.00 40.01     0.105 C 
+ATOM     35  N   PRO P   7      11.470   1.530  18.962  1.00 58.11    -0.312 N 
+ATOM     36  CA  PRO P   7      11.301   1.223  20.390  1.00 63.12     0.163 C 
+ATOM     37  C   PRO P   7      11.904  -0.150  20.691  1.00 67.72     0.251 C 
+ATOM     38  O   PRO P   7      11.765  -1.081  19.882  1.00 69.95    -0.271 OA
+ATOM     39  CB  PRO P   7       9.812   1.270  20.615  1.00 62.39     0.034 C 
+ATOM     40  CG  PRO P   7       9.367   2.298  19.603  1.00 63.47     0.027 C 
+ATOM     41  CD  PRO P   7      10.204   1.963  18.376  1.00 60.90     0.105 C 
+ATOM     42  N   CYS P   8      12.557  -0.321  21.838  1.00 70.71    -0.337 N 
+ATOM     43  CA  CYS P   8      13.271  -1.556  22.062  1.00 73.28     0.171 C 
+ATOM     44  CB  CYS P   8      14.752  -1.165  21.994  1.00 73.38     0.100 C 
+ATOM     45  SG  CYS P   8      16.080  -2.393  22.179  1.00 74.43    -0.080 SA
+ATOM     46  H   CYS P   8      12.555   0.364  22.538  1.00 30.00     0.164 HD
+ENDROOT
+BRANCH   7  47
+ATOM     47  CB  HIS P   2      21.396   1.544  17.991  1.00 17.14     0.079 C 
+BRANCH  47  48
+ATOM     48  CG  HIS P   2      22.168   2.645  17.261  1.00 16.55     0.080 A 
+ATOM     49  CD2 HIS P   2      23.505   2.912  17.413  1.00 12.35     0.089 A 
+ATOM     50  NE2 HIS P   2      23.641   4.010  16.713  1.00  9.94    -0.334 N 
+ATOM     51  HE2 HIS P   2      24.475   4.524  16.599  1.00 20.00     0.168 HD
+ATOM     52  CE1 HIS P   2      22.497   4.376  16.172  1.00 10.97     0.175 A 
+ATOM     53  ND1 HIS P   2      21.537   3.534  16.498  1.00 13.85    -0.229 NA
+ENDBRANCH  47  48
+ENDBRANCH   7  47
+BRANCH   1  54
+ATOM     54  N   CYS P   1      19.997  -0.472  22.876  1.00 56.51    -0.338 N 
+HETATM   55  C   ACE P   0      20.305  -1.712  23.222  1.00 59.71     0.231 C 
+HETATM   56  O   ACE P   0      21.095  -1.861  24.152  1.00 62.98    -0.273 OA
+HETATM   57  CH3 ACE P   0      19.786  -2.994  22.572  1.00 60.08     0.097 C 
+ATOM     58  H   CYS P   1      20.453   0.277  23.320  1.00 30.00     0.164 HD
+ENDBRANCH   1  54
+BRANCH  19  59
+ATOM     59  CB  GLN P   4      19.426   4.770  14.065  1.00 16.72     0.042 C 
+BRANCH  59  60
+ATOM     60  CG  GLN P   4      18.986   5.031  12.628  1.00 10.41     0.090 C 
+BRANCH  60  61
+ATOM     61  CD  GLN P   4      20.099   4.832  11.609  1.00 12.19     0.227 C 
+ATOM     62  NE2 GLN P   4      19.741   4.449  10.404  1.00 15.33    -0.369 N 
+ATOM     63 1HE2 GLN P   4      20.435   4.269   9.742  1.00 30.00     0.159 HD
+ATOM     64 2HE2 GLN P   4      18.781   4.330  10.221  1.00 30.00     0.159 HD
+ATOM     65  OE1 GLN P   4      21.295   5.030  11.862  1.00  8.09    -0.273 OA
+ENDBRANCH  60  61
+ENDBRANCH  59  60
+ENDBRANCH  19  59
+BRANCH  43  66
+ATOM     66  C   CYS P   8      12.863  -2.270  23.344  1.00 74.31     0.248 C 
+HETATM   67  N   NH2 P   9      12.637  -3.566  23.142  1.00 73.94    -0.368 N 
+HETATM   68  HN1 NH2 P   9      12.362  -4.128  23.890  1.00  0.00     0.159 HD
+HETATM   69  HN2 NH2 P   9      12.766  -3.897  22.224  1.00  0.00     0.159 HD
+ATOM     70  O   CYS P   8      12.706  -1.709  24.434  1.00 75.26    -0.271 OA
+ENDBRANCH  43  66
+TORSDOF 7

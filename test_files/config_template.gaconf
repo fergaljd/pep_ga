@@ -1,0 +1,56 @@
+[Chromosome]
+mutation_rate = 0.05
+#Type can be peptide or scaffold
+type = peptide
+#Allowable constraints: SS (disulphide), HT (head tail), empty is linear
+constraint = SS
+peptide_length = 6
+
+#type = scaffold
+#scaffold_smiles = CCC[X]CCC
+#fragment_file = fragments.smi
+
+
+
+[Fitness]
+#fitness function can be vina_fitness, multi_fitness, or blank
+
+#Multi fitness options ...
+#fitness_func = multi_fitness
+#receptors = test_files/xxx.pdbqt, test_files/yyy.pdbqt
+#configs = test_files/xxx.config,  test_files/xxx.config
+#fitness_eq = r_0*(r_0-r_1)
+
+#Vina fitness options
+fitness_func = vina_fitness
+vina_config = test_files/1SLE_D.config
+vina_receptor = test_files/1SLE_D.pdbqt
+
+#Keep generated PDBQTs (true or false)
+keep_pdbqts = true
+
+
+
+[Selection]
+#Allowed selection methods:
+#BIN-TNMT, STOCH-UNI, RANDOM, Q-TNMT, LIN-RANK, PROPORTIONAL, BEST-FRAC
+selection_method = Q-TNMT
+#For Q-TNMT only
+num_tournaments = 30
+#For STOCH-UNI only
+#num_pointers = 4
+
+
+[Recombination]
+#Allowed recombination methods:
+#SHUFFLE, DIST-BIS, SP, MP, UNI, DP
+recombination_method = SHUFFLE
+
+
+[General]
+#parallel_fitness = true
+population_size = 60
+survivors_per_round = 20
+max_generations = 30
+logfile = ga-run.log
+loglevel = INFO
